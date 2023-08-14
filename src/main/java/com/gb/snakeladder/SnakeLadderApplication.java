@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class SnakeLadderApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Hey there Welcome to my Snake and Ladder Game\n\n");
         System.out.println("Enter board Size");
         int boardSize = scanner.nextInt();
         System.out.println("Enter number of players");
